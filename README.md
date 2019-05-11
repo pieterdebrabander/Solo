@@ -1,0 +1,2 @@
+# Solo
+Create solo website
