@@ -69,3 +69,31 @@ $(function() {
     navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
   });
 });
+
+
+/* ======================================
+            Stats
+====================================== */
+$(function() {
+  $(".counter").counterUp({
+    delay: 10,
+    time: 2000
+  })
+});
+
+
+/* ======================================
+            Testimonials
+====================================== */
+$(function() {
+  $("#clients-list").owlCarousel({
+    items: 6,
+    autoplay: false,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause: true,
+    nav: true,
+    dots: false,
+    navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>']
+  });
+});
